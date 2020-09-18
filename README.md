@@ -1,7 +1,7 @@
 # Description
 A example of 3D flight with keyboard in Unity
 
-[](ScreenShot.png?raw=true)
+[Screenshot](ScreenShot.png)
 
 # How to use this in your own project
 * Create an object
