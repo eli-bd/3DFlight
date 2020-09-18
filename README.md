@@ -1,7 +1,7 @@
 # Description
 A example of 3D flight with keyboard in Unity
 
-
+![alt text](https://github.com/eli-bd/3DFlight/blob/master/Sprites/ScreenShot.png?raw=true)
 
 # How to use this in your own project
 * Create an object
