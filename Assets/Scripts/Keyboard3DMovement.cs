@@ -1,14 +1,19 @@
-﻿using UnityEngine;
+﻿// Attach this script to a GameObject in order to move it with a keyboard.
+// The GameObject needs to have a Rigidbody in order for this scrip to work.
+// Also make sure that isKinematic Rigidbody property is unchecked.
 
-public class Fly : MonoBehaviour
+using UnityEngine;
+
+public class Keyboard3DMovement : MonoBehaviour
 {
+    private Rigidbody rbody;
     public float movementSpeed = 800;
     public float rotationSpeed = 100.0f;
-    private Rigidbody rbody;
 
     void Start()
     {
         rbody = GetComponent<Rigidbody>();
+        if (rbody == null) Debug.Log("Missing a Rigidbody in " + name);
     }
 
     void FixedUpdate()
